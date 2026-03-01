@@ -1,6 +1,6 @@
 # obsidian-iflow 2.0
 
-[English](README.md) | 中文
+[English](README_EN.md) | 中文
 
 > 一个 **iFlow 驱动**的个人生产力系统——让 AI 助手帮你打理**知识管理**和**每日规划**。
 
