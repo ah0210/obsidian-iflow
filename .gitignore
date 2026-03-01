@@ -1,0 +1,72 @@
+# Ignore all dot folders by default
+.*
+
+# But track these specific files
+!.gitignore
+!iflow.config.json
+!.gitkeep
+
+# Track System folders and their contents
+!CN/99_系统/
+CN/99_系统/*
+
+# Track Templates
+!CN/99_系统/模板/
+CN/99_系统/模板/*
+
+# Track Skills
+!CN/99_系统/技能/
+CN/99_系统/技能/*
+
+# Track Bases
+!CN/99_系统/数据库/
+CN/99_系统/数据库/*
+
+# Track Prompts
+!CN/99_系统/提示词/
+CN/99_系统/提示词/*
+
+# Track README and LICENSE
+!README.md
+!README_CN.md
+!LICENSE
+
+# System files
+.DS_Store
+.Trash-*
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Log files
+*.log
+
+# Obsidian specific
+.obsidian/
+.obsidian/workspace-mobile.json
+
+# Node modules (if any)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build artifacts (if any)
+dist/
+build/
+*.min.js
+*.min.css
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS specific
+Thumbs.db
+desktop.ini
