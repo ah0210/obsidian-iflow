@@ -1,8 +1,10 @@
-# OrbitOS
+# obsidian-iflow
 
 English | [中文](README_CN.md)
 
 > An **AI-powered** personal productivity system where **knowledge management** and **daily task planning** are intelligently orchestrated by your AI assistant.
+
+> This project is inspired by [OrbitOS](https://github.com/MarsWang42/OrbitOS).
 
 ![Screenshot](EN/50_Resources/Screenshot.png)
 
@@ -11,7 +13,7 @@ English | [中文](README_CN.md)
 **Option 1: Git Sparse Checkout** (downloads only English version)
 
 ```bash
-git clone --filter=blob:none --sparse https://github.com/MarsWang42/OrbitOS.git my-vault
+git clone --filter=blob:none --sparse https://github.com/ah0210/obsidian-iflow.git my-vault
 cd my-vault
 git sparse-checkout set EN
 mv EN/* EN/.* . 2>/dev/null; rmdir EN
@@ -20,16 +22,16 @@ mv EN/* EN/.* . 2>/dev/null; rmdir EN
 **Option 2: Using degit** (no git history, simpler)
 
 ```bash
-npx degit MarsWang42/OrbitOS/EN my-vault
+npx degit ah0210/obsidian-iflow/EN my-vault
 ```
 
 ---
 
-## What is OrbitOS?
+## What is obsidian-iflow?
 
-OrbitOS is an Obsidian-based productivity framework designed around a simple principle: **everything orbits around you**. Your projects, knowledge, and daily tasks stay in motion and connected — all managed through natural language conversations with AI.
+obsidian-iflow is an Obsidian-based productivity framework designed around a simple principle: **everything orbits around you**. Your projects, knowledge, and daily tasks stay in motion and connected — all managed through natural language conversations with AI.
 
-Unlike traditional note-taking systems that require manual organization, OrbitOS leverages **Claude Code** or **Gemini CLI** as your intelligent knowledge manager and daily planner. The AI doesn't just store your information — it actively helps you:
+Unlike traditional note-taking systems that require manual organization, obsidian-iflow leverages **Claude Code** or **Gemini CLI** as your intelligent knowledge manager and daily planner. The AI doesn't just store your information — it actively helps you:
 
 - **Capture ideas** and transform them into structured, actionable projects
 - **Plan your day** with context-aware recommendations based on your active work
@@ -53,7 +55,7 @@ Every major workflow is initiated through simple slash commands, with the AI han
 
 ### Intelligent Knowledge Graph
 
-OrbitOS uses wikilinks extensively to build a connected knowledge graph:
+obsidian-iflow uses wikilinks extensively to build a connected knowledge graph:
 
 - **Projects** link to related **Research** notes for context and reference
 - **Daily notes** link to projects you worked on each day
@@ -186,7 +188,7 @@ Daily notes (`10_Daily/YYYY-MM-DD.md`) serve as your central anchor:
 
 ## Philosophy
 
-OrbitOS is built on these principles:
+obsidian-iflow is built on these principles:
 
 1. **AI as Partner**: The AI isn't just a tool — it's an active collaborator that understands your system and helps maintain it
 2. **Capture Everything, Process Later**: The inbox exists so you never lose an idea; the AI helps you process when ready
@@ -199,3 +201,7 @@ OrbitOS is built on these principles:
 ## License
 
 MIT License — Use freely, modify as needed, share with others.
+
+## Original Project Reference
+
+This project is inspired by and builds upon the design principles of [OrbitOS](https://github.com/MarsWang42/OrbitOS).

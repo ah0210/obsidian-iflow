@@ -1,14 +1,16 @@
-# OrbitOS 2.0
+# obsidian-iflow 2.0
 
 [English](README.md) | 中文
 
 > 一个 **iFlow 驱动**的个人生产力系统——让 AI 助手帮你打理**知识管理**和**每日规划**。
 
+> 本项目参考了 [OrbitOS](https://github.com/MarsWang42/OrbitOS) 的设计理念。
+
 ![Screenshot](CN/50_资源/Screenshot.png)
 
 ## 🌟 2.0 版本重大更新
 
-OrbitOS 2.0 已全面迁移至 **iFlow**，提供更强大、更灵活的 AI 驱动工作流：
+obsidian-iflow 2.0 已全面迁移至 **iFlow**，提供更强大、更灵活的 AI 驱动工作流：
 
 ✅ **原生 iflow 支持** - 所有技能专为 iFlow 优化
 ✅ **完全本地化** - 所有界面和文档均为中文
@@ -22,28 +24,28 @@ OrbitOS 2.0 已全面迁移至 **iFlow**，提供更强大、更灵活的 AI 驱
 
 1. **安装 Obsidian** - [下载地址](https://obsidian.md/download)（支持 macOS、Windows、Linux）
 2. **安装 iFlow CLI** - 按照 iFlow 官方文档安装
-3. **克隆或下载 OrbitOS**
+3. **克隆或下载 obsidian-iflow**
 
 ### 方式一：Git Clone
 
 ```bash
-git clone https://github.com/MarsWang42/OrbitOS.git my-vault
+git clone https://github.com/ah0210/obsidian-iflow.git my-vault
 cd my-vault
 ```
 
 ### 方式二：直接下载
 
-1. 访问 [GitHub Releases](https://github.com/MarsWang42/OrbitOS/releases)
+1. 访问 [GitHub Releases](https://github.com/ah0210/obsidian-iflow/releases)
 2. 下载最新版本的 ZIP 文件
 3. 解压到你的 Obsidian 库目录
 
 ### 配置 iFlow
 
-在 OrbitOS 根目录下，确保 `iflow.config.json` 文件存在且配置正确。
+在 obsidian-iflow 根目录下，确保 `iflow.config.json` 文件存在且配置正确。
 
-## 🎯 什么是 OrbitOS？
+## 🎯 什么是 obsidian-iflow？
 
-OrbitOS 是一个基于 Obsidian 的生产力框架，核心理念很简单：**你是中心，万物围绕你运转**。项目、知识、日常任务如同行星一般环环相扣、持续演进——而管理这一切，只需用自然语言和 AI 聊聊天。
+obsidian-iflow 是一个基于 Obsidian 的生产力框架，核心理念很简单：**你是中心，万物围绕你运转**。项目、知识、日常任务如同行星一般环环相扣、持续演进——而管理这一切，只需用自然语言和 AI 聊聊天。
 
 ### 核心特性
 
@@ -62,7 +64,7 @@ OrbitOS 是一个基于 Obsidian 的生产力框架，核心理念很简单：**
 
 #### 智能知识图谱
 
-OrbitOS 大量使用双向链接，构建相互连通的知识网络：
+obsidian-iflow 大量使用双向链接，构建相互连通的知识网络：
 
 - **项目**链接到相关的**研究笔记**，随时查阅背景资料
 - **每日笔记**链接到当天推进的项目
@@ -266,7 +268,7 @@ iFlow 会：
 
 ## 🎨 设计哲学
 
-OrbitOS 基于这些原则：
+obsidian-iflow 基于这些原则：
 
 1. **AI 是伙伴** - AI 不只是工具，而是理解你的系统、帮你维护它的协作者
 2. **先记下来，再整理** - 收件箱让你永不丢失灵感；准备好了再让 AI 帮你处理
@@ -286,7 +288,7 @@ OrbitOS 基于这些原则：
 
 ### 双向链接
 
-OrbitOS 重度使用 Obsidian 的双向链接语法：
+obsidian-iflow 重度使用 Obsidian 的双向链接语法：
 
 ```markdown
 [[笔记名称]]                # 基础链接
@@ -307,7 +309,7 @@ OrbitOS 重度使用 Obsidian 的双向链接语法：
 
 ### iflow 配置
 
-OrbitOS 使用 `iflow.config.json` 配置文件定义：
+obsidian-iflow 使用 `iflow.config.json` 配置文件定义：
 
 - 技能目录和模板目录
 - 文件夹路径映射
@@ -362,10 +364,14 @@ MIT License — 随便用，随便改，欢迎分享。
 
 如果你有任何问题或建议：
 
-- 提交 [Issue](https://github.com/MarsWang42/OrbitOS/issues)
-- 查看 [Wiki](https://github.com/MarsWang42/OrbitOS/wiki)
-- 加入 [Discussions](https://github.com/MarsWang42/OrbitOS/discussions)
+- 提交 [Issue](https://github.com/ah0210/obsidian-iflow/issues)
+- 查看 [Wiki](https://github.com/ah0210/obsidian-iflow/wiki)
+- 加入 [Discussions](https://github.com/ah0210/obsidian-iflow/discussions)
 
 ---
 
 **让 AI 帮你打理一切，专注于真正重要的事情。**
+
+## 📝 原项目参考
+
+本项目基于 [OrbitOS](https://github.com/MarsWang42/OrbitOS) 的设计理念进行开发。

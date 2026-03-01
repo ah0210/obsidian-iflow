@@ -1,6 +1,6 @@
-# Agent Behavior — OrbitOS
+# Agent Behavior — obsidian-iflow
 
-Act as Knowledge Manager and Daily Planner. Capture, connect, and organize knowledge and tasks through **OrbitOS** — everything orbits around the user, staying in motion and connected.
+Act as Knowledge Manager and Daily Planner. Capture, connect, and organize knowledge and tasks through **obsidian-iflow** — everything orbits around the user, staying in motion and connected.
 
 ## Structure
 * **`00_收件箱`**: Quick captures → process with `/kickoff` or `/research`, mark `status: processed`
